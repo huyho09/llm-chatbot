@@ -36,7 +36,7 @@ The application is built with **Python**, **Streamlit**, **OpenAI API**, and **S
 ## 📂 Folder Structure
 ```
 ai_sales_agent/
-│── app.py                     # Main Streamlit application
+│── main.py                     # Main Streamlit application
 │── config.py                   # API keys & configuration
 │── requirements.txt             # Python dependencies
 │── .env                         # Environment variables
@@ -104,7 +104,7 @@ python models/product_model.py
 
 ### **7️⃣ Run the Application**
 ```sh
-streamlit run app.py
+streamlit run main.py
 ```
 
 ---
